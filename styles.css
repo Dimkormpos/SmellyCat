@@ -72,10 +72,6 @@ body {
     margin-right: 15px;
 }
 
-.footer-icons {
-    /* Style your icons here */
-}
-
 .footer-copyright-text {
     color: #E1E4EA;
     font-family: Manrope;
@@ -96,11 +92,6 @@ body {
 .column {
     flex: 1;
     padding: 0px 120px;
-    /* Optional border for visualization */
-}
-
-.map-column {
-    /* Add styling for map element here */
 }
 
 .description-right-title {
