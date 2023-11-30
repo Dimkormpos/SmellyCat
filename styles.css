@@ -1,0 +1,310 @@
+body {
+    margin: 0;
+    padding: 0px 240px;
+    font-family: Manrope;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    height: 48px;
+}
+
+.main-header .logo {
+    font-weight: bold;
+    padding: 0px 120px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 50%
+}
+
+.header-nav span {
+    margin-left: 15px;
+    color: #555555;
+    font-weight: 600;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.sub-title {
+    color: #000000;
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.22px;
+    line-height: 27px;
+    width: 476px;
+    text-align: left;
+}
+
+.footer {
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 174px;
+}
+
+.main-footer .footer-logo {
+    font-weight: bold;
+}
+
+.footer-text {
+    display: flex;
+    color: #fff;
+}
+
+.footer-text span {
+    margin-right: 15px;
+}
+
+.footer-icons {
+    /* Style your icons here */
+}
+
+.footer-copyright-text {
+    color: #E1E4EA;
+    font-family: Manrope;
+    font-size: 12px;
+    letter-spacing: -0.15px;
+    line-height: 22.5px;
+    text-align: center;
+    padding: 0 0 24px 0
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: #EFF1F4;
+    padding-bottom: 186px;
+}
+
+.column {
+    flex: 1;
+    padding: 0px 120px;
+    /* Optional border for visualization */
+}
+
+.map-column {
+    /* Add styling for map element here */
+}
+
+.description-right-title {
+    color: #000000;
+    font-family: Manrope;
+    font-weight: bolder;
+    font-size: 24px;
+    letter-spacing: -0.3px;
+    line-height: 27px;
+    width: 476px;
+    text-align: right;
+    margin-top: 60px;
+}
+
+.description-right {
+    color: #000000;
+    font-family: Manrope;
+    font-size: 18px;
+    letter-spacing: -0.22px;
+    line-height: 27px;
+    width: 476px;
+    text-align: right;
+}
+
+/* Existing styles remain unchanged */
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-row label {
+    color: #000000;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.17px;
+    line-height: 17px;
+    text-align: left;
+    margin: 27px 0px
+}
+
+.form-row input,
+.form-row textarea {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: 75%;
+    max-height: 40px;
+    border-color: #A0A9BA;
+    border-width: 1px;
+    box-shadow: none;
+    font-family: Manrope;
+    font-size: 16px;
+    letter-spacing: -0.23px;
+    line-height: 24px;
+    text-align: left;
+    color: #A0A9BA;
+    opacity: 0.5;
+    margin: 16px 0px
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-message {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-side {
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.form-column label {
+    color: #000000;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.17px;
+    line-height: 17px;
+    text-align: left;
+    padding-top: 40px 0px
+}
+
+.form-column input,
+.form-column textarea {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    height: 40px;
+    border-color: #A0A9BA;
+    border-width: 1px;
+    box-shadow: none;
+    width: 175px;
+    height: 40px;
+    font-family: Manrope;
+    font-size: 16px;
+    letter-spacing: -0.23px;
+    line-height: 24px;
+    text-align: left;
+    color: #A0A9BA;
+    opacity: 0.5;
+    margin-top: 18px;
+}
+
+.form-message label {
+    color: #000000;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.17px;
+    line-height: 17px;
+    text-align: left;
+    margin-top: 36px
+}
+
+.form-message input,
+.form-message textarea {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    height: 40px;
+    border-color: #A0A9BA;
+    border-width: 1px;
+    box-shadow: none;
+    font-family: Manrope;
+    font-size: 16px;
+    letter-spacing: -0.23px;
+    line-height: 24px;
+    text-align: left;
+    color: #A0A9BA;
+    opacity: 0.5;
+    margin-top: 8px;
+    width: 100%;
+    height: 168px;
+}
+
+.optional {
+    color: #9784FF;
+    font-family: Manrope;
+    font-size: 14px;
+    letter-spacing: -0.17px;
+    line-height: 17px;
+    text-align: right;
+    margin-top: 36px
+}
+
+.submit-button {
+    background-color: #4CAF50;
+    /* Green background */
+    color: white;
+    margin-top: 46px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #EF7878;
+    border-radius: 5px;
+    width: 169px;
+    height: 48px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.devider-line {
+    background-color: #D8D8D8;
+    width: 100%;
+    height: 1px;
+    border: none;
+}
+
+.map {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+    width: 476px;
+    height: 416px;
+    object-fit: cover;
+    margin-top: 120px;
+}
+
+#myCheckbox {
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.checkbox-container .checkbox-label {
+    color: #555555;
+    font-family: Manrope;
+    font-weight: lighter;
+    font-size: 14px;
+    letter-spacing: -0.2px;
+    line-height: 24px;
+    text-align: left;
+    margin: 16px;
+    height: 24;
+}
